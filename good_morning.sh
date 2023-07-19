@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 'boker tov, the subtle art of not giving a fuck starting'
+echo -e '\e[33mboker tov\e[0m, the subtle art of not giving a fuck starting'
 gcloud compute instances create test \
     --project=named-signal-392608 \
     --zone=us-central1-a \
