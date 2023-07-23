@@ -4,7 +4,7 @@ echo -e '\e[33mboker tov\e[0m, the subtle art of not giving a fuck starting'
 gcloud compute instances create test \
     --project=named-signal-392608 \
     --zone=us-central1-a \
-    --machine-type=e2-small \
+    --machine-type=e2-medium \
     --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
     --maintenance-policy=MIGRATE \
     --provisioning-model=STANDARD \
