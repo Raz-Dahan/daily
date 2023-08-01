@@ -2,7 +2,7 @@
 
 echo -e '\e[33mboker tov\e[0m, the subtle art of not giving a fuck starting'
 gcloud beta container --project "named-signal-392608" clusters create "test-cluster" \
-    --region "us-east1" \
+    --region "us-central1-a" \
     --no-enable-basic-auth \
     --cluster-version "1.26.5-gke.1200" \
     --release-channel "regular" \
